@@ -80,3 +80,10 @@ let hello = "Doe";
 // Destructuring
 [hello, hi] = [hi, hello];
 console.log(hi, hello)
+
+let people = {
+    firstname: "John",
+    lastname: "Doe",
+}
+let output = people.toString();
+console.log(output);
